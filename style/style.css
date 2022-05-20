@@ -17,6 +17,7 @@
     position: fixed;
     width: 100%;
     background: green;
+    padding: 15px 0;
     font-family: 'Akshar', sans-serif;
 }
 
@@ -39,4 +40,7 @@
 
 .navbar .menu li a{
     color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
 }
