@@ -16,8 +16,8 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background: rgb(13, 13, 13);
-    padding: 15px 0;
+    /*background: rgb(13, 13, 13); */
+    padding: 30px 0;
     font-family: 'Akshar', sans-serif;
 }
 
@@ -49,4 +49,31 @@
     display: flex;
     background: url(/Img/fundo_site.jpg) no-repeat center;
     height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Akshar', sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: #fff;
+    font-weight: 500;
 }
