@@ -16,7 +16,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background: green;
+    background: rgb(13, 13, 13);
     padding: 15px 0;
     font-family: 'Akshar', sans-serif;
 }
@@ -43,4 +43,10 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+}
+
+.home{
+    display: flex;
+    background: url(/Img/fundo_site.jpg) no-repeat center;
+    height: 100vh;
 }
