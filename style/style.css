@@ -94,10 +94,18 @@
 
 .home .home-content a{
     display: inline-block;
-    background: rgb(172, 84, 152);;
+    background: rgb(8, 70, 63);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 2px solid rgb(8, 70, 63);
+}
+
+.home .home-content a:hover{
+    color: rgb(8, 70, 63);
+    background: none;
 }
 
 .menu-btn{
@@ -105,6 +113,29 @@
     font-size: 25px;
     cursor: pointer;
     display: none;
+}
+
+section{
+    padding: 100px 0;
+}
+
+.about{
+    font-family: 'Robot', sans-serif;
+}
+
+.about .title{
+    font-family: 'Akshar', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.about .about-content .left img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 @media (max-width: 1104px){
@@ -152,6 +183,10 @@
     .home .home-content .text-3{
         font-size: 35px;
     }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
 }
 
 @media (max-width: 690px){
@@ -160,6 +195,9 @@
     }
     .home .home-content .text-3{
         font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
     }
 }
 
