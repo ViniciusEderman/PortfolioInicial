@@ -92,11 +92,31 @@
     font-weight: 500;
 }
 
+.home .home-content a{
+    display: inline-block;
+    background: rgb(172, 84, 152);;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+}
+
 .menu-btn{
     color: #fff;
     font-size: 25px;
     cursor: pointer;
     display: none;
+}
+
+@media (max-width: 1104px){
+    .navbar .max-width{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px){
+    .navbar .max-width{
+        padding: 0 50px;
+    }
 }
 
 @media (max-width: 947px){
@@ -140,5 +160,14 @@
     }
     .home .home-content .text-3{
         font-size: 32px;
+    }
+}
+
+@media (max-width: 500px){
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
     }
 }
