@@ -178,10 +178,6 @@ section{
     margin-bottom: 10px;
 }
 
-.about .about-content .right p{
-    text-align: justify;
-}
-
 .about .about-content .right a{
     display: inline-block;
     background: rgb(8, 70, 63);
