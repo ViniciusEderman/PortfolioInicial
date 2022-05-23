@@ -194,6 +194,13 @@ section{
     border: 2px solid rgb(8, 70, 63);
     transition: all 0.3s ease;
 }
+
+.about .about-content .right a:hover{
+    color: rgb(8, 70, 63);
+    background: none;
+
+}
+
 .about .about-content .left img{
     width: 400px;
     height: 400px;
@@ -201,9 +208,16 @@ section{
     border-radius: 6px;
 }
 
-@media (max-width: 1104px){
+@media (max-width: 1300px){
     .navbar .max-width{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 1104px){
+    .about .about-content .left img{
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -215,6 +229,7 @@ section{
 
 @media (max-width: 947px){
     .max-width{
+        max-width: 800px;
         padding: 0 50px;
     }
     .menu-btn{
@@ -249,6 +264,17 @@ section{
     .home .home-content a{
         font-size: 23px;
         padding: 10px 30px;
+    }
+    .about .about-content .column{
+        width: 50%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
     }
 }
 
