@@ -120,18 +120,18 @@ section{
     padding: 100px 0;
 }
 
-.about{
+.about, .services{
     font-family: 'Robot', sans-serif;
 }
 
-.about .about-content{
+.about .about-content, .services .serv-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.about .title{
+section .title{
     font-family: 'Akshar', sans-serif;
     text-align: center;
     font-size: 40px;
@@ -141,7 +141,7 @@ section{
     position: relative;
 }
 
-.about .title::before{
+section .title::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -152,8 +152,7 @@ section{
     transform: translateX(-50%);
 }
 
-.about .title::after{
-    content: "Who am I?";
+section .title::after{
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -162,6 +161,10 @@ section{
     color: rgb(8, 70, 63);
     padding: 5px;
     transform: translateX(-50%);
+}
+
+.about .title::after{
+    content: "Who am I?";
 }
 
 .about .about-content .left{
@@ -202,6 +205,40 @@ section{
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
+}
+
+.services{
+    background: #111;
+    color: #fff;
+}
+
+.services .title::before{
+    background: #fff;
+}
+
+.services .title::after{
+    background: #111;
+    content: "My Experiences At Companys";
+}   
+
+.services .serv-content .card{ 
+    width: calc(65% - 22%);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: -10px -5px;
+    cursor: pointer;
+}
+
+.services .serv-content .card ion-icon{
+    font-size: 55px;
+    color: rgb(8, 70, 63);
+}
+
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 
 @media (max-width: 1300px){
