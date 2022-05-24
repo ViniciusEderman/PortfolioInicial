@@ -62,7 +62,7 @@
 
 .home{
     display: flex;
-    background: url(/Img/fundo_site.jpg) no-repeat center;
+    background: url(/assets/img/fundo_site.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -222,7 +222,9 @@ section .title::after{
 }   
 
 .services .serv-content .card{ 
-    width: calc(60% - 40%);
+    width: calc(56% - 33%);
+    height: 220px;
+    padding: 5px;
     background: #222;
     text-align: center;
     border-radius: 6px;
