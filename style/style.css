@@ -323,11 +323,6 @@ section .title::after{
     width: 42%;
 }
 
-.skills .skills-content .right .sql::before{
-    width: 20%;
-}
-
-
 @media (max-width: 1300px){
     .navbar .max-width{
         margin-left: 0;
