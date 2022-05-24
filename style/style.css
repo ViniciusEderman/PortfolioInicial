@@ -217,27 +217,44 @@ section .title::after{
 }
 
 .services .title::after{
-    background: #111;
     content: "My Experiences At Companys";
+    background: #111;
 }   
 
 .services .serv-content .card{ 
-    width: calc(65% - 22%);
+    width: calc(60% - 40%);
     background: #222;
     text-align: center;
     border-radius: 6px;
     padding: -10px -5px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover{
+    background: rgb(8, 70, 63);
+}
+
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
 }
 
 .services .serv-content .card ion-icon{
-    font-size: 55px;
+    font-size: 50px;
     color: rgb(8, 70, 63);
 }
 
+.services .serv-content .card:hover ion-icon{
+    color: #fff;
+}
+
 .services .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
     margin: 10px 0 7px 0;
 }
 
@@ -309,6 +326,10 @@ section .title::after{
     .about .about-content .right{
         flex: 100%;
     }
+    .services .serv-content .card{
+        width: calc(40% - 10%);
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 690px){
@@ -320,6 +341,9 @@ section .title::after{
     }
     .home .home-content a{
         font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: 100%;
     }
 }
 
