@@ -18,35 +18,35 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         strings:["Devoloper", "Trainee", "Technology Lover"],
         typeSpeed:100,
-        backSpeed:60,
+        backSpeed:80,
         loop:true
     });
 
     var typed = new Typed(".typing-2", {
         strings:["About Me", "Sobre Mim"],
         typeSpeed:100,
-        backSpeed:60,
+        backSpeed:80,
         loop:true
     });
 
     var typed = new Typed(".typing-3", {
         strings:["Experiences", "Experiências"],
         typeSpeed:100,
-        backSpeed:60,
+        backSpeed:80,
         loop:true
     });
 
     var typed = new Typed(".typing-4", {
         strings:["My Skills", "Minhas Habilidades"],
         typeSpeed:100,
-        backSpeed:50,
+        backSpeed:80,
         loop:true
     });
 
     var typed = new Typed(".typing-5", {
         strings:["Contact", "Contato"],
         typeSpeed:100,
-        backSpeed:50,
+        backSpeed:80,
         loop:true
     });
 
