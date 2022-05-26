@@ -1,8 +1,8 @@
 # PortfolioInicial
- Será uma tentativa de portfolio.
+ Neste portfólio eu irei mostrar um pouco sobre minha pessoa, minhas experiências entre outros temas.
 
-# Nesta apresentação, irei tentar ao máximo criar um simples portfolio onde futuramente eu pretendo montar outro com mais funcionalidades.
+# Nesta apresentação, irei tentar ao máximo focar no aprendizado do display tipo flex. Eu pretendo ir ajustando e dar mais funcionalidades com JS.
 
-# Obrigado por visitar, volte sempre
+# Obrigado por visitar, volte sempre.
 
 # Lembrando, há outros projetinhos por aqui, pode dar uma olhadinha <3 
