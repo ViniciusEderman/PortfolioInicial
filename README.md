@@ -1,10 +1,10 @@
 # Portfólio Inicial
  (Neste portfólio eu irei mostrar um pouco sobre minha pessoa, minhas experiências entre outros temas)
 
-# Meu foco foi em aprender bem a responsividade com CSS usando display flex. 
-# Eu pretendo ir ajustando e dar mais funcionalidades com JS.
+# Meu foco foi em aprender bem a responsividade com CSS usando display flex
+# Eu pretendo ir ajustando e dar mais funcionalidades com JS
 
-# Obrigado por visitar, volte sempre.
+# Obrigado por visitar, volte sempre
 
 # Lembrando, há outros projetinhos por aqui, pode dar uma olhadinha <3 
 
